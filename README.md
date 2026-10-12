@@ -51,10 +51,7 @@ server any AI client can call directly.
 
 - **Live demo:** [holiday-atlas.rafikadiche.com](https://holiday-atlas.rafikadiche.com)
 - **Stack:** Next.js, React, TypeScript, Tailwind CSS, Node.js, AWS Lambda, Terraform, Docker, FastMCP
-- **Project documentation:**
-  - [Frontend README](https://github.com/holiday-atlas-org/frontend/blob/main/README.md)
-  - [Backend README](https://github.com/holiday-atlas-org/backend/blob/main/README.md)
-  - [Infrastructure README](https://github.com/holiday-atlas-org/infrastructure/blob/main/README.md)
+- **Project documentation:** [Documentation README](https://github.com/holiday-atlas-org/documentation/blob/main/README.md)
 
 ### NexusBench
 
@@ -63,8 +60,7 @@ the same frontend/backend/infrastructure pattern as Holiday Atlas, with its own 
 
 - **Status:** In development — not yet deployed or published to GitHub.
 - **Stack:** Next.js, TypeScript, Node.js, AWS Lambda, Terraform, FastMCP
-- **Project documentation:** architecture, API reference, MCP usage, and deployment notes are written
-  and will be linked here once the repositories are published.
+- **Project documentation:** [Documentation README](https://github.com/nexus-bench-org/documentation/blob/main/README.md)
 
 ## Contact
 
