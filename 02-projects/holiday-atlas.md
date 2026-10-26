@@ -94,14 +94,3 @@ The measured results are on the Holiday Atlas [Audit](https://github.com/holiday
 | [API reference](https://github.com/holiday-atlas-org/documentation/blob/main/02-technical/api-reference.md) | REST routes, MCP tools and how to connect a client |
 | [Testing](https://github.com/holiday-atlas-org/documentation/blob/main/03-quality/testing.md) | Test levels, results and the status of each repository |
 | [Audit](https://github.com/holiday-atlas-org/documentation/blob/main/03-quality/audit.md) | Performance, accessibility and code quality, before and after the rewrite |
-
-## Status and gaps
-
-| Item | Status on 2026-10-26 |
-|---|---|
-| Automated frontend deploy | The pipeline runs its checks and tests on every push. Its deploy step has not succeeded yet, so the live site still serves the build from before the rewrite |
-| Lighthouse on the live site | Planned, after the first automated deploy |
-| Mobile blocking time | Above target. Improvement planned |
-| Backend tests | Planned. A sanity check script runs today |
-| Backend and infrastructure deploys | By hand. Automation planned |
-| Staging environment | None, by decision |

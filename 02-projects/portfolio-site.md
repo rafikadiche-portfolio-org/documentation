@@ -2,7 +2,7 @@
 
 [Documentation index](../README.md)
 
-[rafikadiche.com](https://rafikadiche.com) is a bilingual static site with one serverless contact API, built and run by one person under a cost ceiling of €10 a month.
+[rafikadiche.com](https://rafikadiche.com) is a bilingual static site with one serverless contact API, built and run by one person under a fixed monthly cost ceiling.
 
 ![The home page of rafikadiche.com](../assets/screens/portfolio-site.png)
 
@@ -40,14 +40,3 @@ The pages are built once and served from a private S3 bucket through CloudFront.
 - Keyless deploys for the contact API. GitHub Actions gets short-lived credentials through OIDC, with trust pinned to the repository's immutable identifiers.
 - Terraform in layers, bootstrap then platform, each with its own state, because state and deploy identities must exist before the resources that use them.
 - A reversed decision kept in the log. Terraform was dropped on 2026-08-06 to protect the launch date, and drift then caused two failures within a week. On 2026-08-12 the decision was reversed and the live resources were imported until a plan showed no difference. Both entries stay in the decision log, the first marked as reversed.
-
-## Status and gaps
-
-| Item | Status |
-|---|---|
-| Contact API tests | Unit tests with the Node.js test runner |
-| Contact API deploy | Automated on a merge to the main branch |
-| Frontend tests | Planned. The checks today are the type check and the production build |
-| Frontend deploy | Planned. Build, upload and cache invalidation are run by hand |
-| Repository settings as code | Written in Terraform, not applied yet |
-| Staging environment | None, by decision |

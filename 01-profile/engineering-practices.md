@@ -56,12 +56,3 @@ flowchart LR
 | Multi-agent workflows | A CrewAI workflow produced the NexusBench dashboard specification. It stops for human review after each phase, and each run has a cost cap and a ledger of model calls | [NexusBench](../02-projects/nexusbench.md) |
 | Products that AI clients can call | Both public APIs are also exposed as MCP tools, read-only | [Holiday Atlas API reference](https://github.com/holiday-atlas-org/documentation/blob/main/02-technical/api-reference.md), [NexusBench](../02-projects/nexusbench.md) |
 | No agent in production | Agents work at design time and build time. No model call sits on a request path | [NexusBench](../02-projects/nexusbench.md) |
-
-## Status and gaps
-
-| Item | Status |
-|---|---|
-| Staging environments | None, by decision. Each project has local development and production |
-| Automated tests on the rafikadiche.com frontend | Planned. The checks today are the type check and the production build |
-| Automated deploy of the rafikadiche.com frontend | Planned. It is deployed by hand |
-| Automated deploy of the Holiday Atlas backend and infrastructure | Planned. See [Holiday Atlas operations](https://github.com/holiday-atlas-org/documentation/blob/main/03-quality/operations.md) |
