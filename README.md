@@ -26,33 +26,34 @@ flowchart LR
     HUB --> HA["Holiday Atlas"]
     HUB --> NB["NexusBench"]
     HUB --> SITE["rafikadiche.com"]
+    HA --> CASE["Case study"]
     HA --> HAAPP["Live app"]
     HA --> HADOC["Documentation repository"]
     NB --> NBAPP["Live app"]
     NB --> NBAPI["Public API reference"]
-    SITE --> CASE["Case study"]
+    SITE --> SITEAPP["Live site"]
 ```
 
-The profile pages say what is used and how. Each claim points to the project where it can be checked. The project pages are summaries: the full functional, technical and quality documentation of a project stays in that project's own repository.
+The profile pages say what is used and how. Each claim points to the project where it can be checked. The project pages are short: a one-page case study for Holiday Atlas and a summary for each of the others. The full functional, technical and quality documentation of a project stays in that project's own repository.
 
 ## Projects
 
 | Project | What it is | Stack | Links |
 |---|---|---|---|
-| [Holiday Atlas](02-projects/holiday-atlas.md) | A public API, an MCP server and a web app for public holidays around the world, shown on an interactive globe | Next.js, React, TypeScript, D3, Node.js, AWS Lambda, Terraform, Docker | [Live app](https://holiday-atlas.rafikadiche.com), [documentation](https://github.com/holiday-atlas-org/documentation) |
+| [Holiday Atlas](02-projects/holiday-atlas.md) | A public API, an MCP server and a web app for public holidays around the world, shown on an interactive globe | Next.js, React, TypeScript, D3, Node.js, AWS Lambda, Terraform, Docker | [Live app](https://holiday-atlas.rafikadiche.com), [documentation](https://github.com/holiday-atlas-org/documentation), [case study](02-projects/holiday-atlas.md) |
 | [NexusBench](02-projects/nexusbench.md) | A dashboard that compares language models on benchmark scores and token prices, with a public API and an MCP server | Next.js, React, TypeScript, Recharts, NestJS, DynamoDB, AWS Lambda, Step Functions, Terraform | [Live app](https://nexusbench.rafikadiche.com), [API reference](https://nexusbench.rafikadiche.com/api/docs) |
-| [rafikadiche.com](02-projects/portfolio-site.md) | A bilingual static site with a serverless contact API, run under a small monthly cost ceiling | Next.js, React, TypeScript, Tailwind CSS, Node.js, AWS Lambda, Terraform | [Live site](https://rafikadiche.com), [case study](02-projects/portfolio-site.md) |
+| [rafikadiche.com](02-projects/portfolio-site.md) | A bilingual static site with a serverless contact API, run under a small monthly cost ceiling | Next.js, React, TypeScript, Tailwind CSS, Node.js, AWS Lambda, Terraform | [Live site](https://rafikadiche.com) |
 
 ## Skills and where they are shown
 
 | Area | Skills | Shown in |
 |---|---|---|
 | UI and UX design | User journeys, personas, design tokens, light and dark themes, responsive design, data visualization, accessibility | [Holiday Atlas UX design](https://github.com/holiday-atlas-org/documentation/blob/main/01-functional/ux-design.md), [NexusBench](02-projects/nexusbench.md) |
-| Frontend development | React, Next.js, TypeScript, Tailwind CSS, D3, HTML canvas, Recharts, internationalization, static site generation, web performance | [Holiday Atlas frontend](https://github.com/holiday-atlas-org/documentation/blob/main/02-technical/frontend.md), [NexusBench](02-projects/nexusbench.md), [rafikadiche.com](02-projects/portfolio-site.md) |
+| Frontend development | React, Next.js, TypeScript, Tailwind CSS, D3, HTML canvas, Recharts, internationalization, static site generation, refactoring, web performance | [Holiday Atlas frontend](https://github.com/holiday-atlas-org/documentation/blob/main/02-technical/frontend.md), [NexusBench](02-projects/nexusbench.md), [rafikadiche.com](02-projects/portfolio-site.md) |
 | Backend development | Node.js, NestJS, REST API design, OpenAPI, MCP servers, CQRS, event-driven architecture, DynamoDB data modelling, schema validation | [Holiday Atlas backend](https://github.com/holiday-atlas-org/documentation/blob/main/02-technical/backend.md), [NexusBench API reference](https://nexusbench.rafikadiche.com/api/docs) |
 | Cloud and DevOps | AWS serverless, Terraform, infrastructure as code, Docker, GitHub Actions, CI/CD, OIDC, cost control | [Holiday Atlas infrastructure](https://github.com/holiday-atlas-org/documentation/blob/main/02-technical/infrastructure.md), [rafikadiche.com](02-projects/portfolio-site.md) |
-| Quality and security | Unit, component and end-to-end testing, cross-browser testing, WCAG 2.1 AA, performance budgets, least-privilege access, rate limiting | [Holiday Atlas testing](https://github.com/holiday-atlas-org/documentation/blob/main/03-quality/testing.md), [Holiday Atlas security](https://github.com/holiday-atlas-org/documentation/blob/main/03-quality/security.md) |
-| AI engineering | Model Context Protocol servers, multi-agent workflows with CrewAI, human review points, agent-assisted delivery | [Holiday Atlas API reference](https://github.com/holiday-atlas-org/documentation/blob/main/02-technical/api-reference.md), [NexusBench](02-projects/nexusbench.md) |
+| Quality and security | Unit, component and end-to-end testing, cross-browser testing, WCAG 2.1 AA, performance budgets, least-privilege access, rate limiting | [Holiday Atlas case study](02-projects/holiday-atlas.md), [Holiday Atlas testing](https://github.com/holiday-atlas-org/documentation/blob/main/03-quality/testing.md), [Holiday Atlas security](https://github.com/holiday-atlas-org/documentation/blob/main/03-quality/security.md) |
+| AI engineering | Model Context Protocol servers, multi-agent workflows with CrewAI, human review points, agent-assisted delivery | [Holiday Atlas API reference](https://github.com/holiday-atlas-org/documentation/blob/main/02-technical/api-reference.md), [Holiday Atlas case study](02-projects/holiday-atlas.md), [NexusBench](02-projects/nexusbench.md) |
 
 ## Documentation map
 
@@ -64,9 +65,9 @@ Technical profile
 
 Projects
 
-- [Holiday Atlas](02-projects/holiday-atlas.md): summary, live app and documentation repository.
+- [Holiday Atlas](02-projects/holiday-atlas.md): a one-page case study of the architecture, the frontend rewrite and the technical decisions, with links to the live app and the documentation repository.
 - [NexusBench](02-projects/nexusbench.md): summary, live app and public API reference.
-- [rafikadiche.com](02-projects/portfolio-site.md): a one-page case study of the site itself.
+- [rafikadiche.com](02-projects/portfolio-site.md): summary of the site itself, with its live link.
 
 ## Client experience
 

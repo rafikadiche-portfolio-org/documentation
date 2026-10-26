@@ -43,6 +43,7 @@ flowchart LR
 | Accessibility | WCAG 2.1 AA is the target. Automated scans run inside the end-to-end suite, in both themes | [Holiday Atlas audit](https://github.com/holiday-atlas-org/documentation/blob/main/03-quality/audit.md) |
 | Performance | A first-load JavaScript budget fails the build when exceeded. Lighthouse audits are dated | [Holiday Atlas audit](https://github.com/holiday-atlas-org/documentation/blob/main/03-quality/audit.md) |
 | Code quality | TypeScript in strict mode and ESLint, with a file length limit in the Holiday Atlas frontend | [Holiday Atlas frontend](https://github.com/holiday-atlas-org/documentation/blob/main/02-technical/frontend.md) |
+| Refactoring under test | Behaviour is pinned by end-to-end tests before code moves. The work lands one pull request at a time, and each one must pass the same tests | [Holiday Atlas case study](../02-projects/holiday-atlas.md) |
 | Cost control | A monthly ceiling decided before the design, budgets with alerts, serverless services billed by use | [rafikadiche.com](../02-projects/portfolio-site.md), [Holiday Atlas infrastructure](https://github.com/holiday-atlas-org/documentation/blob/main/02-technical/infrastructure.md) |
 | Decision logging | Each real decision is written down with its reason and its consequence. A reversed decision stays in the log, marked as reversed | [rafikadiche.com](../02-projects/portfolio-site.md), [Holiday Atlas architecture](https://github.com/holiday-atlas-org/documentation/blob/main/02-technical/architecture.md) |
 | Public documentation | Each project has functional, technical and quality pages. Test and audit gaps are reported as they are, with planned work marked as planned | [Holiday Atlas documentation](https://github.com/holiday-atlas-org/documentation) |
@@ -51,7 +52,7 @@ flowchart LR
 
 | Practice | How it is applied | Evidence |
 |---|---|---|
-| Agent-assisted delivery | Code and documentation are written with Claude Code. Each change is read, built and checked before it ships, and what was not checked is stated | [rafikadiche.com](../02-projects/portfolio-site.md) |
+| Agent-assisted delivery | Code and documentation are written with Claude Code from a written plan with stop conditions. Each change is read, built and checked before it ships, and what was not checked is stated | [Holiday Atlas case study](../02-projects/holiday-atlas.md) |
 | Multi-agent workflows | A CrewAI workflow produced the NexusBench dashboard specification. It stops for human review after each phase, and each run has a cost cap and a ledger of model calls | [NexusBench](../02-projects/nexusbench.md) |
 | Products that AI clients can call | Both public APIs are also exposed as MCP tools, read-only | [Holiday Atlas API reference](https://github.com/holiday-atlas-org/documentation/blob/main/02-technical/api-reference.md), [NexusBench](../02-projects/nexusbench.md) |
 | No agent in production | Agents work at design time and build time. No model call sits on a request path | [NexusBench](../02-projects/nexusbench.md) |
