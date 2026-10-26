@@ -63,7 +63,7 @@ The same shape runs in the three projects, at different sizes. Holiday Atlas has
 | Design tokens as CSS custom properties | One source for colour, type and spacing, in light and dark themes | Holiday Atlas, NexusBench | [Holiday Atlas UX design](https://github.com/holiday-atlas-org/documentation/blob/main/01-functional/ux-design.md) |
 | Typed bilingual content | A missing translation fails the build before it can reach production | All three projects | [Holiday Atlas frontend](https://github.com/holiday-atlas-org/documentation/blob/main/02-technical/frontend.md) |
 | Reader-specific results computed in the browser | The server stays stateless and stores no personal data | NexusBench | [NexusBench](../02-projects/nexusbench.md) |
-| Work moved to build time | Geometry computed in the browser blocked the page, so it is computed once at build time and saved | Holiday Atlas | [Holiday Atlas architecture](https://github.com/holiday-atlas-org/documentation/blob/main/02-technical/architecture.md) |
+| Work moved to build time | Geometry computed in the browser blocked the page, so it is computed once at build time and saved | Holiday Atlas | [Holiday Atlas case study](../02-projects/holiday-atlas.md), [Holiday Atlas architecture](https://github.com/holiday-atlas-org/documentation/blob/main/02-technical/architecture.md) |
 | Performance budget in continuous integration | A size regression fails the build before it ships | Holiday Atlas | [Holiday Atlas frontend](https://github.com/holiday-atlas-org/documentation/blob/main/02-technical/frontend.md) |
 
 ## Infrastructure and delivery
