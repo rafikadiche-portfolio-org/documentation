@@ -82,8 +82,3 @@ These tools were used in client roles. The code belongs to the clients, so there
 | Frontend | Angular, Vue.js, HTML5, CSS3 |
 | Backend | Express, GraphQL |
 | Data | PostgreSQL, MongoDB, Redis |
-
-## Status and gaps
-
-- The NexusBench documentation repository is not public yet. Rows that name NexusBench link to its summary page here, to the live app and to its public API reference.
-- No proficiency ratings are given. A tool is listed because it runs in a project or was used in a client role.

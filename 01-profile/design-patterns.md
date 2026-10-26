@@ -76,8 +76,3 @@ The same shape runs in the three projects, at different sizes. Holiday Atlas has
 | Least-privilege roles | Each function and each deploy identity can touch only what it needs | Holiday Atlas, NexusBench | [Holiday Atlas security](https://github.com/holiday-atlas-org/documentation/blob/main/03-quality/security.md) |
 | Cost guardrails | A budget with alerts makes a cost surprise visible early | All three projects | [Holiday Atlas infrastructure](https://github.com/holiday-atlas-org/documentation/blob/main/02-technical/infrastructure.md) |
 | Smoke test after deploy | Each deploy is checked against the live site and API | Holiday Atlas, NexusBench | [Holiday Atlas operations](https://github.com/holiday-atlas-org/documentation/blob/main/03-quality/operations.md) |
-
-## Status and gaps
-
-- Patterns used only in NexusBench link to its summary page. Deep links are added when its documentation repository is public.
-- The list holds patterns that run in production in these projects. Patterns known from client work but not shown here are left out.
