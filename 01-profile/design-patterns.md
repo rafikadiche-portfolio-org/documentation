@@ -1,9 +1,6 @@
----
-title: "Design patterns"
-description: "Architecture and design patterns, the problem each one answers and where it is used."
-icon: "shapes"
-keywords: ["serverless", "static export", "CQRS", "event-driven", "single-table design", "OpenAPI", "design tokens", "infrastructure as code", "OIDC"]
----
+# Design patterns
+
+[Documentation index](../README.md)
 
 This page lists the architecture and design patterns used across the portfolio projects, the problem each one answers and where it can be seen.
 

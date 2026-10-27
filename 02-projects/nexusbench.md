@@ -1,9 +1,6 @@
----
-title: "NexusBench"
-description: "A dashboard that compares language models on benchmark scores and token prices, with a public REST API and an MCP server."
-icon: "chart-column"
-keywords: ["NexusBench", "LLM comparison", "dashboard", "NestJS", "DynamoDB", "CQRS", "Step Functions", "MCP server", "Recharts"]
----
+# NexusBench
+
+[Documentation index](../README.md)
 
 NexusBench is a web dashboard that compares language models on benchmark scores and token prices, with a public REST API and an MCP server over the same data.
 

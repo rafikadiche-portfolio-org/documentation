@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="ra monogram drawn as one squared line">
-  <!-- r stem, top bar, a stem and bowl as one spiral; outlined, with the bowl counter as a real hole.
-       Verticals are 26 thick, horizontals 24, so the bars do not look heavier than the stems. -->
-  <path fill="#26221A" fill-rule="evenodd" d="M31 197V86A27 27 0 0 1 58 59H198A27 27 0 0 1 225 86V170A27 27 0 0 1 198 197H122A27 27 0 0 1 95 170V130A27 27 0 0 1 122 103H199V85A2 2 0 0 0 197 83H59A2 2 0 0 0 57 85V197Z
-    M123 127H197A2 2 0 0 1 199 129V171A2 2 0 0 1 197 173H123A2 2 0 0 1 121 171V129A2 2 0 0 1 123 127Z"/>
-</svg>

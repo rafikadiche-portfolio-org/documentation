@@ -1,9 +1,6 @@
----
-title: "rafikadiche.com"
-description: "A bilingual static site with one serverless contact API, built and run by one person under a fixed monthly cost ceiling."
-icon: "house"
-keywords: ["portfolio", "Next.js", "static export", "AWS Lambda", "Amazon SES", "Cloudflare Turnstile", "Terraform", "OIDC"]
----
+# rafikadiche.com
+
+[Documentation index](../README.md)
 
 [rafikadiche.com](https://rafikadiche.com) is a bilingual static site with one serverless contact API, built and run by one person under a fixed monthly cost ceiling.
 

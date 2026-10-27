@@ -1,9 +1,6 @@
----
-title: "Technical stack"
-description: "Languages, frameworks and tools by layer, with the project that shows each one."
-icon: "layers"
-keywords: ["TypeScript", "React", "Next.js", "Node.js", "NestJS", "AWS Lambda", "DynamoDB", "Terraform", "Docker", "GitHub Actions", "MCP", "CrewAI"]
----
+# Technical stack
+
+[Documentation index](../README.md)
 
 This page lists the languages, frameworks and tools in use, by layer, and names the project that shows each one.
 
