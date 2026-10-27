@@ -1,6 +1,9 @@
-# Holiday Atlas
-
-[Documentation index](../README.md)
+---
+title: "Holiday Atlas"
+description: "One-page case study: a public API, an MCP server and a web app for public holidays, and how its frontend was rebuilt without a visible change."
+icon: "globe"
+keywords: ["Holiday Atlas", "case study", "public holidays API", "MCP server", "Next.js", "D3", "AWS Lambda", "refactoring", "Playwright"]
+---
 
 Holiday Atlas is a free public API, an MCP server and a web app for public holidays around the world, shown on an interactive globe in English and French. This page is a one-page case study: how it is built, and how its frontend was rebuilt without a visible change.
 

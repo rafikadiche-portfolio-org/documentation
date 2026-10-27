@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="24 24 208 208">
+  <title>Rafik Adiche</title>
+  <!-- "ra" monogram. Ink on light browser chrome, moonlight on dark,
+       same pair as ink.light/ink.dark. -->
+  <style>path{fill:#26221A}@media(prefers-color-scheme:dark){path{fill:#EAE7DE}}</style>
+  <path fill-rule="evenodd" d="M31 197V86A27 27 0 0 1 58 59H198A27 27 0 0 1 225 86V170A27 27 0 0 1 198 197H122A27 27 0 0 1 95 170V130A27 27 0 0 1 122 103H199V85A2 2 0 0 0 197 83H59A2 2 0 0 0 57 85V197ZM123 127H197A2 2 0 0 1 199 129V171A2 2 0 0 1 197 173H123A2 2 0 0 1 121 171V129A2 2 0 0 1 123 127Z"/>
+</svg>
