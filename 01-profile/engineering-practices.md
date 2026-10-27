@@ -1,9 +1,6 @@
----
-title: "Engineering practices"
-description: "Testing, delivery, infrastructure as code, security, accessibility, performance and AI-assisted work."
-icon: "list-checks"
-keywords: ["testing", "Playwright", "CI/CD", "Terraform", "WCAG 2.1 AA", "performance budget", "decision log", "Claude Code"]
----
+# Engineering practices
+
+[Documentation index](../README.md)
 
 This page describes how the work is done, practice by practice, and links to the project page that holds the results.
 
